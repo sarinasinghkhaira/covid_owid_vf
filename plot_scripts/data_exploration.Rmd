@@ -1,0 +1,15 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(janitor)
+library(rworldmap)
+```
+
+```{r}
+covid <- read_csv("data/owid-covid-data.csv")
+```
+
